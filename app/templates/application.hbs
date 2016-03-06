@@ -1,3 +1,17 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<div class="row">
+  <div class="col-md-6 left">
+    <h2 id="title">will naugle</h2>
+    <h2>web developer</h2>
+    
+    <div class="navigation">
+      {{#link-to "about"}}1{{/link-to}} {{#link-to "work"}}2{{/link-to}} {{#link-to "contact"}}3{{/link-to}}
+    </div>
+      
+    <div class="social-links">
+      <a href="https://github.com/willynogs" target="_blank">github</a>/<a href="https://www.linkedin.com/in/willnaugle" target="_blank">linkedin</a>/<a href="mailto:willynogs@gmail.com">email</a>
+    </div>
+  </div>
+  <div class="col-md-6 right">
+    {{liquid-outlet}}
+  </div>
+</div>

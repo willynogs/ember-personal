@@ -1,0 +1,67 @@
+body {
+  color: #222222 !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #222222;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #222222;
+}
+
+a:hover {
+  color: #6C7A7D;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+li {
+  font-size: 2em;
+}
+
+
+/*
+content {
+  background: url('/assets/images/bg.jpeg') center center no-repeat;
+  background-size: 600px 600px;
+}
+*/
+
+.navigation {
+  font-size: 7em;
+}
+
+.social-links {
+  font-size: 2em;
+}
+
+.left {
+  color: #222222;
+}
+
+.right {
+  height: 100vh;
+  color: #ffffff;
+  background-color: #222222;
+}
+
+.right h2 {
+  padding-bottom: 10px;
+}
+
+.right p {
+  font-size: 2em;
+}
+
+.right p a {
+  color: #6C7A7D;
+}
+
+.right p a:hover {
+  background-color: #ffffff;
+}
