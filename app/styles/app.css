@@ -42,12 +42,15 @@ content {
 
 .left {
   color: #222222;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .right {
   height: 100vh;
   color: #ffffff;
   background-color: #222222;
+  overflow: scroll;
 }
 
 .right h2 {
@@ -64,4 +67,10 @@ content {
 
 .right p a:hover {
   background-color: #ffffff;
+}
+
+@media (min-width: 991px) {
+  .scroll-down {
+    display: none;
+  }
 }
