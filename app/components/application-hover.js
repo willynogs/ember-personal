@@ -3,16 +3,39 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   actions: {
     addAbout: function () {
-      $('.navigation').append('<a class="added">about</a>');
+      if ($('.added').is(':animated')) {
+        setTimeout(function () {
+          $('.navigation').append('<a class="added">about</a>');
+        }, 150);
+      } else {
+        $('.navigation').append('<a class="added">about</a>');
+      }
     },
     addWork: function () {
-      $('.navigation').append('<a class="added">work</a>');
+      if ($('.added').is(':animated')) {
+        setTimeout(function () {
+          $('.navigation').append('<a class="added">work</a>');
+        }, 150);
+      } else {
+        $('.navigation').append('<a class="added">work</a>');
+      }
     },
     addContact: function () {
-      $('.navigation').append('<a class="added">contact</a>');
+      if ($('.added').is(':animated')) {
+        setTimeout(function () {
+          $('.navigation').append('<a class="added">contact</a>');
+        }, 150);
+      } else {
+        $('.navigation').append('<a class="added">contact</a>');
+      }
     },
-    remove: function () {
-      $('.added').remove();
+    fall: function () {
+      $('.added').animate({
+        opacity: 0.0,
+        top: "+=10"
+      }, 150, function () {
+        $('.added').remove();
+      });
     }
   }
 });

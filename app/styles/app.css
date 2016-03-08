@@ -35,6 +35,11 @@ content {
 .added {
   color: #6C7A7D;
   font-size: 80px;
+  position: relative;
+}
+
+.added span {
+  position: relative;
 }
 
 .navigation {
