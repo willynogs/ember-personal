@@ -17,11 +17,11 @@ a:hover {
 }
 
 h2 {
-  font-size: 5em;
+  font-size: 80px;
 }
 
 li {
-  font-size: 2em;
+  font-size: 32px;
 }
 
 
@@ -32,12 +32,17 @@ content {
 }
 */
 
+.added {
+  color: #6C7A7D;
+  font-size: 80px;
+}
+
 .navigation {
-  font-size: 7em;
+  font-size: 112px;
 }
 
 .social-links {
-  font-size: 2em;
+  font-size: 32px;
 }
 
 .left {
@@ -58,7 +63,7 @@ content {
 }
 
 .right p {
-  font-size: 2em;
+  font-size: 32px;
 }
 
 .right p a {
