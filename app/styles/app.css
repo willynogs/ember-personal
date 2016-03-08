@@ -66,11 +66,13 @@ content {
   font-size: 32px;
 }
 
-.right p a {
+.right p a,
+.work a {
   color: #6C7A7D;
 }
 
-.right p a:hover {
+.right p a:hover,
+.work a:hover {
   background-color: #ffffff;
 }
 
