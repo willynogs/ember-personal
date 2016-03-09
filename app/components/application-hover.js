@@ -8,7 +8,9 @@ export default Ember.Component.extend({
           if ($('.added').length > 0) {
             $('.added').remove();
           }
-          $('.navigation').append('<a class="added">about</a>');
+          if ($('.about').is(':hover')) {
+            $('.navigation').append('<a class="added">about</a>');
+          }
         }, 150);
       } else {
         $('.navigation').append('<a class="added">about</a>');
@@ -20,7 +22,9 @@ export default Ember.Component.extend({
           if ($('.added').length > 0) {
             $('.added').remove();
           }
-          $('.navigation').append('<a class="added">work</a>');
+          if ($('.work').is(':hover')) {
+            $('.navigation').append('<a class="added">work</a>');
+          }
         }, 150);
       } else {
         $('.navigation').append('<a class="added">work</a>');
@@ -32,7 +36,9 @@ export default Ember.Component.extend({
           if ($('.added').length > 0) {
             $('.added').remove();
           }
-          $('.navigation').append('<a class="added">contact</a>');
+          if ($('.contact').is(':hover')) {
+            $('.navigation').append('<a class="added">contact</a>');
+          }
         }, 150);
       } else {
         $('.navigation').append('<a class="added">contact</a>');
