@@ -8,7 +8,7 @@ export default Ember.Component.extend({
           if ($('.added').length > 0) {
             $('.added').remove();
           }
-          if ($('.about').is(':hover')) {
+          if ($('.about:hover').length > 0) {
             $('.navigation').append('<a class="added">about</a>');
           }
         }, 150);
@@ -22,7 +22,7 @@ export default Ember.Component.extend({
           if ($('.added').length > 0) {
             $('.added').remove();
           }
-          if ($('.work').is(':hover')) {
+          if ($('.work:hover').length > 0) {
             $('.navigation').append('<a class="added">work</a>');
           }
         }, 150);
@@ -36,7 +36,7 @@ export default Ember.Component.extend({
           if ($('.added').length > 0) {
             $('.added').remove();
           }
-          if ($('.contact').is(':hover')) {
+          if ($('.contact:hover').length > 0) {
             $('.navigation').append('<a class="added">contact</a>');
           }
         }, 150);
