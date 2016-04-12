@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('work');
   this.route('contact');
+  this.route('game');
 });
 
 export default Router;
